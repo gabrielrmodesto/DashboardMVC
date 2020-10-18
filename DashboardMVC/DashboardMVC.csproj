@@ -128,6 +128,7 @@
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="Controllers\CustomerOrderController.cs" />
+    <Compile Include="Controllers\ProductsControllerController.cs" />
     <Compile Include="DataAccess\Configurations\CustomerConfiguration.cs" />
     <Compile Include="DataAccess\Configurations\EntityConfiguration.cs" />
     <Compile Include="DataAccess\Configurations\OrderConfiguration.cs" />
@@ -147,6 +148,8 @@
       <DependentUpon>202010182029487_initial_migration.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
+    <Compile Include="Models\ProductOrCustomerViewModel.cs" />
+    <Compile Include="Models\ProductsViewModel.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -158,6 +161,25 @@
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
     <Content Include="Content\Site.css" />
+    <Content Include="Images\Cars\Audi.png" />
+    <Content Include="Images\Cars\Bmw.png" />
+    <Content Include="Images\Cars\Toyota.png" />
+    <Content Include="Images\Cars\Volkswagen.png" />
+    <Content Include="Images\Clothing\Boots.png" />
+    <Content Include="Images\Clothing\Jacket.png" />
+    <Content Include="Images\Clothing\Jeans.png" />
+    <Content Include="Images\Clothing\Suit.png" />
+    <Content Include="Images\Clothing\tshirt.png" />
+    <Content Include="Images\Customers\alexia.png" />
+    <Content Include="Images\Customers\mahdi.png" />
+    <Content Include="Images\Customers\sara.png" />
+    <Content Include="Images\Customers\tarik.png" />
+    <Content Include="Images\Electronics\Camera.png" />
+    <Content Include="Images\Electronics\Keyboard.png" />
+    <Content Include="Images\Electronics\Laptop.png" />
+    <Content Include="Images\Electronics\Microphone.png" />
+    <Content Include="Images\Electronics\Mouse.png" />
+    <Content Include="Images\Electronics\Printer.png" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
     <None Include="Scripts\jquery-3.4.1.intellisense.js" />
@@ -183,11 +205,10 @@
     <Content Include="Views\Shared\Error.cshtml" />
     <Content Include="Views\Shared\_Layout.cshtml" />
     <Content Include="Views\CustomerOrder\CustomerList.cshtml" />
-    <Content Include="Views\CustomerOrder\Index.cshtml" />
+    <Content Include="Views\ProductsController\ProductList.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
-    <Folder Include="Models\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="fonts\glyphicons-halflings-regular.woff2" />

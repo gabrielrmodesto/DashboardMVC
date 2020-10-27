@@ -214,6 +214,7 @@
     <Content Include="Views\Dashboard\Dashboard.cshtml" />
     <Content Include="Views\Dashboard\GetDetails.cshtml" />
     <Content Include="Views\Dashboard\TopCustomers.cshtml" />
+    <Content Include="Views\CustomerOrder\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

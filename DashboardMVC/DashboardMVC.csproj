@@ -208,11 +208,12 @@
     <Content Include="Views\Shared\Error.cshtml" />
     <Content Include="Views\Shared\_Layout.cshtml" />
     <Content Include="Views\CustomerOrder\CustomerList.cshtml" />
-    <Content Include="Views\ProductsController\ProductList.cshtml" />
-    <Content Include="Views\ProductsController\GetProductByCategory.cshtml" />
-    <Content Include="Views\ProductsController\DisplayShoppingCart.cshtml" />
+    <Content Include="Views\Products\ProductList.cshtml" />
+    <Content Include="Views\Products\GetProductByCategory.cshtml" />
+    <Content Include="Views\Products\DisplayShoppingCart.cshtml" />
     <Content Include="Views\Dashboard\Dashboard.cshtml" />
-    <Content Include="Views\ProductsController\GetDetails.cshtml" />
+    <Content Include="Views\Dashboard\GetDetails.cshtml" />
+    <Content Include="Views\Dashboard\TopCustomers.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
